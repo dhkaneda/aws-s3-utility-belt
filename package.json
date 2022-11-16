@@ -1,0 +1,11 @@
+{
+  "name": "s3-utility-belt",
+  "version": "1.0.0",
+  "description": "aws s3 tool suite for simple batch processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dhkaneda",
+  "license": "ISC"
+}
