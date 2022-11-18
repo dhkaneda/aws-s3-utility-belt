@@ -1,7 +1,7 @@
 # S3 Utility Belt
 
 ## Overview
-These functions are very destructive and will easily wipe out an account's buckets in one fell swoop. They were put together to clean out educational accounts once students are done with their resources and a new class is prepped. If you have the necessary permissions on your account to delete buckets, you probably know what power you hold.
+These functions are very destructive and can wipe out an account's buckets. They were put together to clean out educational accounts once students are done with their resources and a new class is prepped. If you have the necessary permissions on your account to delete buckets, you probably know what power you hold.
 
 ## Requirements
   - execution environment will require AWS credentials with S3 capabilities
