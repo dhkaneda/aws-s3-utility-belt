@@ -27,6 +27,10 @@ These functions are very destructive and will easily wipe out an account's bucke
       ```
 
 ### Troubleshooting
+  - Run this to see which user profile is selected
+    ```
+    aws iam get-user
+    ```
   - If your AWS Shared Credentials file (typically at `~/.aws`) has multiple profiles, ensure the appropriate one is used for local scripts
     ```
     export AWS_PROFILE=name-of-aws-profile
