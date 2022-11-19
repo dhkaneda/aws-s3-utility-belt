@@ -3,6 +3,10 @@
 ## Overview
 These functions are very destructive and can wipe out an account's buckets. They were put together to clean out educational accounts once students are done with their resources and a new class is prepped. If you have the necessary permissions on your account to delete buckets, you probably know what power you hold.
 
+## Known Issues
+Some buckets cannot because they must be addressed using a specified endpoint.
+Changing the region manually to reflect the redirect endpoint should do it - patch incoming.
+
 ## Requirements
   - execution environment will require AWS credentials with S3 capabilities
   - `node` version 18 LTS (created with, not tested with others)
